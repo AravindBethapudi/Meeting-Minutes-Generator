@@ -35,7 +35,7 @@
 
 Open your terminal and run:
 
-```bash
+
 git clone https://github.com/your_username/meeting-minutes-generator.git
 cd meeting-minutes-generator
 
