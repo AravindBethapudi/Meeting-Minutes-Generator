@@ -1,6 +1,6 @@
 # Meeting Minutes Generator
 
-**Meeting Minutes Generator** is an AI-powered application that transforms audio recordings of meetings into detailed, structured meeting minutes. By leveraging state-of-the-art models such as OpenAI's Whisper for transcription and GPT-4 for natural language processing, this tool efficiently summarizes meetings with actionable insights.
+**Meeting Minutes Generator** is an AI-powered application that transforms audio recordings of meetings into detailed, structured meeting minutes. By leveraging state-of-the-art models—such as OpenAI's Whisper for transcription and GPT-4 for natural language processing—this tool efficiently summarizes meetings with actionable insights.
 
 ---
 
@@ -14,7 +14,7 @@
   - **Summary:**  
     A concise overview of the meeting objectives, discussions, and conclusions.
   - **Attendees and Speakers:**  
-    A list of key participants. *(Note: Speaker diarization is not implemented in this version.)*
+    A list of key participants (speaker diarization is not implemented in this version).
   - **Sentiments:**  
     Analysis of the overall sentiment and emotion expressed during the meeting.
   - **Key Takeaways:**  
@@ -35,15 +35,6 @@
 
 Open your terminal and run:
 
-
+```bash
 git clone https://github.com/your_username/meeting-minutes-generator.git
 cd meeting-minutes-generator
-
-### Contributing
-Contributions are welcome! If you have ideas or improvements:
-
-Open an Issue: Describe your suggestion or bug.
-Submit a Pull Request: We appreciate your code contributions.
-
-### License
-This project is licensed under the MIT License.
