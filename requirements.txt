@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+gradio
+openai
+transformers
+torch
+=======
+torch
+transformers
+sentencepiece
+accelerate
+openai
+gradio
+pyannote.audio
+>>>>>>> 8b4c29b59f8d36e0abfbe920de3ad57c8d49a793
