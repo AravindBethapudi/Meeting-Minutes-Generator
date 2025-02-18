@@ -35,6 +35,14 @@
 
 Open your terminal and run:
 
-```bash
 git clone https://github.com/your_username/meeting-minutes-generator.git
 cd meeting-minutes-generator
+
+### Contributing
+Contributions are welcome! If you have ideas or improvements:
+
+Open an Issue: Describe your suggestion or bug.
+Submit a Pull Request: We appreciate your code contributions.
+
+### License
+This project is licensed under the MIT License.
