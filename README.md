@@ -16,3 +16,50 @@ Action Items & Decisions: Extraction of tasks, decisions, and responsibilities f
 Topic Segmentation: Organization of the conversation into topics for easier review.
 Gradio Web Interface:
 Provides a simple, interactive interface to upload audio files and view the generated meeting minutes in real time.
+Installation
+Clone the Repository:
+
+bash
+Copy
+git clone https://github.com/your_username/meeting-minutes-generator.git
+cd meeting-minutes-generator
+Install Dependencies:
+
+Ensure you have Python installed, then run:
+
+bash
+Copy
+pip install -r requirements.txt
+Note: The requirements.txt file includes dependencies like gradio, openai, transformers, and torch.
+
+Usage
+Set Your OpenAI API Key:
+
+Make sure to set your API key as an environment variable. For example:
+
+On macOS/Linux:
+bash
+Copy
+export OPENAI_API_KEY="your_openai_api_key"
+On Windows (Command Prompt):
+cmd
+Copy
+set OPENAI_API_KEY=your_openai_api_key
+Run the Application:
+
+Start the app by executing:
+
+bash
+Copy
+python app.py
+This will launch a Gradio web interface. Simply upload an audio file of your meeting, and the application will:
+
+Transcribe the audio using Whisper.
+Analyze the transcript for sentiment, key takeaways, and action items.
+Generate well-structured meeting minutes in Markdown format.
+Contributing
+Contributions are welcome! If you have any ideas or improvements, feel free to open an issue or submit a pull request.
+
+License
+This project is licensed under the MIT License.
+
