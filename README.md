@@ -1,4 +1,4 @@
-Meeting Minutes Generator
+## Meeting Minutes Generator
 Meeting Minutes Generator is an AI-powered application that converts audio recordings of meetings into detailed, structured meeting minutes. Leveraging cutting-edge models like OpenAI's Whisper for transcription and GPT-4 for natural language processing, this tool provides an efficient and accurate way to summarize meetings with actionable insights.
 
 Features
